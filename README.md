@@ -16,7 +16,7 @@ O método escolhido para realizar este reset é coletando as informações atuai
 Para rodar este desenvolvimento com sucesso, você só precisa seguir os passos abaixo:
 * Ter o Python instalado na máquina;
 * Passar sua base de domínios para a variável " BASEDN ", do arquivo .py, ou torná-la uma variável que irá receber dados digitados pelo usuário, por meio do método " input('Base de Domínios: ') ";
-* Instalar a biblioteca ldap3 em um ambiente virtual: " pip install ldap3 ".
+* Instalar a biblioteca ldap3 em um ambiente virtual Python (ou na própria máquina): " pip install ldap3 ".
 
 ## Contatos
 
