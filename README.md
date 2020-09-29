@@ -1,10 +1,10 @@
-# Active Directory -> Reset de Senha
+# Active Directory -> Atualização de Senha
 
 ## Sobre o projeto
 
-Este é um projeto desenvolvido para estudo, onde, por meio da execução de um script Python, é possível resetar sua senha do AD.
+Este é um projeto desenvolvido para estudo, onde, por meio da execução de um script Python, é possível atualizar sua senha do AD.
 
-O método escolhido para realizar este reset é coletando as informações atuais do AD e as credenciais do usuário. A partir desses dados, ele pode atualizar sua senha para a que desejar.
+O método escolhido para realizar esta atualização é coletando as informações atuais do AD e as credenciais do usuário. A partir desses dados, ele pode escolher uma nova senha de sua preferência.
 
 ## Arquitetura do projeto
 
@@ -17,6 +17,10 @@ Para rodar este desenvolvimento com sucesso, você só precisa seguir os passos 
 * Ter o Python instalado na máquina;
 * Passar sua base de domínios para a variável " BASEDN ", do arquivo .py, ou torná-la uma variável que irá receber dados digitados pelo usuário, por meio do método " input('Base de Domínios: ') ";
 * Instalar a biblioteca ldap3 em um ambiente virtual Python (ou na própria máquina): " pip install ldap3 ".
+
+## Observação
+
+A maioria dos AD's possuem políticas que restrigem algumas ações relacionadas à atualização de senha. Por isso, recomendo que você consulte as regras que o(s) da sua empresa segue(m).
 
 ## Contatos
 
